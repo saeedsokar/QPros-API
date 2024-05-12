@@ -17,6 +17,8 @@
         <cucumber.version>7.14.0</cucumber.version>
         <jackson.version>2.15.2</jackson.version>
         <jose.version>0.9.3</jose.version>
+        <extent.report.version>2.41.2</extent.report.version>
+        <apache.poi.version>5.0.0</apache.poi.version>
     </properties>
 
     <dependencies>
@@ -49,19 +51,19 @@
         <dependency>
             <groupId>com.relevantcodes</groupId>
             <artifactId>extentreports</artifactId>
-            <version>2.41.2</version>
+            <version>${extent.report.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>5.0.0</version>
+            <version>${apache.poi.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>5.0.0</version>
+            <version>${apache.poi.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
