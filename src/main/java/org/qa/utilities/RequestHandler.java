@@ -40,7 +40,7 @@ public class RequestHandler {
                 .then().log().all();
     }
 
-    public ValidatableResponse deleteRequest(RequestModel requestModel) {
+    public static ValidatableResponse deleteRequest(RequestModel requestModel) {
         return given().
                 log().all()
                 .headers(requestModel.headers)

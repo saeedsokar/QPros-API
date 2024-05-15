@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest test suite for PET store">
+    <test name="Create new user">
+        <classes>
+            <class name="org.qa.integration.user.CreateUser" />
+        </classes>
+    </test>
+    <test name="update user">
+        <classes>
+            <class name="org.qa.integration.user.UpdateUser" />
+        </classes>
+    </test>
+    <test name="Delete user">
+        <classes>
+            <class name="org.qa.integration.user.DeleteUser" />
+        </classes>
+    </test>
+    <test name="Login user">
+        <classes>
+            <class name="org.qa.integration.user.LoginUser" />
+        </classes>
+    </test>
+    <test name="Logout user">
+        <classes>
+            <class name="org.qa.integration.user.LogoutUser" />
+        </classes>
+    </test>
+    <test name="GET user">
+        <classes>
+            <class name="org.qa.integration.user.GetUser" />
+        </classes>
+    </test>
+</suite>
