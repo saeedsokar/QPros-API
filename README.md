@@ -17,6 +17,7 @@ Script will execute CRUD operations for the /user path endpoints and assert the 
 5. The solution is following -> Page object model design pattern with simple SOLID principles to be adaptable to changes and provide usability.
 6. The solution is running from testng.xml file.
 7. Solution is dockerized (with some exceptions).
+8. implement Flaky concept to enable retrying mechanism
 
 #Setup
 1. make sure that Maven is downloaded and installed
