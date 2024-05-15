@@ -7,15 +7,12 @@ This Repo. contains test scripts to execute tests for /user in petstore3 https:/
 * To Run the solution: open the root path of the project then try this "mvn clean package"
 
 #Description:
-Script will open the web portal, and scroll down to find a book. you can set the book name inside the main test class "AddBookTest".
-the script will find the book, click on add to basket
-then the script will be redirected to the cart page, check the book details on the cart page
-then the script will be redirected to the checkout and validate that the billing details form appears.
+Script will execute CRUD operations for the /user path endpoints and assert the values from data provider
 
 #Features:
 1. The solution is developed in JAVA and Rest assured.
 2. solution includes CRUD operation for User Path
-2. Allow data provider as Test data
+2. Allow data provider as Test data using excel sheets
 3. Reports are generated per each test case.
 5. The solution is following -> Page object model design pattern with simple SOLID principles to be adaptable to changes and provide usability.
 6. The solution is running from testng.xml file.
